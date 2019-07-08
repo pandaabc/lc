@@ -1,4 +1,4 @@
-package lc;
+package algo;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -8,7 +8,7 @@ import java.util.stream.IntStream;
  * You are given an integer array nums and you have to return a new counts array.
  * The counts array has the property where counts[i] is the number of smaller elements to the right of nums[i].
  */
-public class Q315 {
+public class Q315_BIT_DC {
 
     public List<Integer> countSmaller(int[] nums) {
         if (nums == null || nums.length == 0) {

@@ -29,55 +29,65 @@ public class Q146LRUCache {
         public LRUCache(int capacity) {
             this.capacity = capacity;
             values = new HashMap<>();
+            head = new ListNode(0, 0);
+            end = new ListNode(0, 0);
+            head.next = end;
+            end.pre = head;
         }
 
         public int get(int key) {
-            if (!values.containsKey(key)) {
+
+            System.out.println(key);
+            System.out.println(values);
+
+            ListNode node = values.get(key);
+            if (node == null) {
                 return -1;
             }
-            ListNode node = values.get(key);
-            if (node == head) {
-                return node.val;
-            }
-            if (node != head) {
-                node.pre.next = node.next;
-            }
-            if (node != end) {
-                node.next.pre = node.pre;
-            } else if (node.pre != null){
-                end = node.pre;
-            }
-            node.next = head;
-            head.pre = node;
-            node.pre = null;
-            head = node;
+
+            // take node out
+            node.pre.next = node.next;
+            node.next.pre = node.pre;
+
+            // put it the first
+            node.pre = head;
+            node.next = head.next;
+            head.next.pre = node;
+            head.next = node;
 
             return node.val;
         }
 
         public void put(int key, int value) {
-            if (values.isEmpty()) {
-                ListNode node = new ListNode(key, value);
-                values.put(key, node);
-                head = node;
-                end = node;
-            } else {
-                ListNode node = values.computeIfAbsent(key, k -> new ListNode(key, value));
+
+            ListNode node = null;
+            if (values.containsKey(key)) {
+                node = values.get(key);
                 node.val = value;
+                node.pre.next = node.next;
+                node.next.pre = node.pre;
+            } else {
+                node = new ListNode(key, value);
                 values.put(key, node);
-                node.next = head;
-                head.pre = node;
-                head = node;
-                if (head == end && end.pre != null) {
-                    end = end.pre;
-                    end.next = null;
-                }
-                head.pre = null;
-                if (values.size() > capacity) {
-                    values.remove(end.key);
-                    end = end.pre;
-                    end.next = null;
-                }
+            }
+            // put node in first
+            node.pre = head;
+            node.next = head.next;
+            head.next.pre = node;
+            head.next = node;
+
+            // check capacity
+            if (values.size() > capacity) {
+                values.remove(end.pre.key);
+                end.pre = end.pre.pre;
+                end.pre.next = end;
+            }
+
+            ListNode tp = head.next;
+            System.out.println();
+            while (tp != null) {
+                System.out.print(tp.val);
+                tp = tp.next;
             }
         }
     }

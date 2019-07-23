@@ -8,7 +8,7 @@ public class Q1032StreamOfCharacters {
         }
 
         public boolean query(char letter) {
-
+            return false;
         }
     }
 

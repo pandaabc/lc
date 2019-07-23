@@ -36,3 +36,9 @@ public class Q843GuessWords {
     }
 
 }
+
+class Master{
+    public int guess(String str) {
+        return 0;
+    }
+}

@@ -4,6 +4,8 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 public class Q207CourseSchedule_TopologicalSort {
 
@@ -16,7 +18,7 @@ public class Q207CourseSchedule_TopologicalSort {
         }
 
         Map<Integer, Set<Integer>> preClasses = new HashMap<>();
-        Set<Integer> allCourses = new HashSet<>();
+        Set<Integer> allCourses = IntStream.range(0, numCourses).boxed().collect(Collectors.toSet());
         int canFinish = 0;
 
         for (int[] pre : prerequisites) {

@@ -19,7 +19,7 @@ public class Q92ReverseLinkedList {
             dummy = head;
             head = head.next;
         }
-
+        return null;
     }
 
 }

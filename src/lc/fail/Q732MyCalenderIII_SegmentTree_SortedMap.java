@@ -15,7 +15,7 @@ public class Q732MyCalenderIII_SegmentTree_SortedMap {
     public int book(int start, int end) {
 
 
-
+        return 0;
     }
 
     private void constructNode(RangedSTNode parentNode, int start, int end) {

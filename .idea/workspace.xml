@@ -2,22 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01cb71af-340e-4ec0-84ca-029409620700" name="Default Changelist" comment="">
-<<<<<<< HEAD
-      <change afterPath="$PROJECT_DIR$/src/algo/Q410SplitArrayLargestSum_BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lc/Q394DecodeString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lc/Q407TrappingRainWaterII_BFS_SortedMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lc/Q4MediumOfTwoSortedArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tictactoe/TicTacToe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algo/Q1057CampusBikes_BucketSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lc/Q500SubarraySumEquals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lc/Q62UniquePath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lc/Q684RedundantConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lc/Q753CrackingTheSafe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lc/Q890FindAndReplacePattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algo/ThreeWayQuickSelect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lc/Q1032StreamOfCharacters.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lc/Q92ReverseLinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lc/fail/Q732MyCalenderIII_SegmentTree_SortedMap.java" beforeDir="false" />
-=======
-      <change afterPath="$PROJECT_DIR$/src/lc/Q282ExpressAddOps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
->>>>>>> 153c877e14d22f03a63fb32a50dac9f41608cc40
+      <change beforePath="$PROJECT_DIR$/out/production/lc/algo/Q146LRUCache$LRUCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lc/algo/Q146LRUCache$LRUCache.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lc/tictactoe/TicTacToe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lc/tictactoe/TicTacToe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc/Q282ExpressAddOps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc/Q282ExpressAddOps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc/Q4MediumOfTwoSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc/Q4MediumOfTwoSortedArrays.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,36 +28,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/src/tictactoe/TicTacToe.java">
+        <entry file="file://$PROJECT_DIR$/src/lc/Q224BasicCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="68" selection-start-line="68" selection-end-line="68" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-=======
-        <entry file="file://$PROJECT_DIR$/src/lc/Q1000MinCostToMergeStone_DP.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
->>>>>>> 153c877e14d22f03a63fb32a50dac9f41608cc40
+            <state relative-caret-position="771">
+              <caret line="83" column="5" selection-start-line="14" selection-start-column="8" selection-end-line="83" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/lc/Q4MediumOfTwoSortedArrays.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-=======
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lc/Q10RegularExpressionMatch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="-297">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lc/Q500SubarraySumEquals.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,10 +58,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algo/Q146LRUCache.java">
+        <entry file="file://$PROJECT_DIR$/src/algo/Q1057CampusBikes_BucketSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="76" column="29" selection-start-line="76" selection-start-column="29" selection-end-line="76" selection-end-column="29" />
+            <state relative-caret-position="648">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lc/Q684RedundantConnection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lc/Q62UniquePath.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lc/Q843GuessWords.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lc/Q890FindAndReplacePattern.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="783">
+              <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,35 +106,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/lc/Q282ExpressAddOps.java">
+        <entry file="file://$PROJECT_DIR$/src/algo/Q315_BIT_DC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="471">
+              <caret line="35" column="38" lean-forward="true" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lc/fail/Q732MyCalenderIII_SegmentTree_SortedMap.java">
+        <entry file="file://$PROJECT_DIR$/src/lc/Q753CrackingTheSafe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+            <state relative-caret-position="864">
+              <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lc/Q1048LongestStringChain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
->>>>>>> 153c877e14d22f03a63fb32a50dac9f41608cc40
             </state>
           </provider>
         </entry>
@@ -130,32 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/src/lc/Q228.java" />
-        <option value="$PROJECT_DIR$/src/lc/Q222CountCompleteTree.java" />
-        <option value="$PROJECT_DIR$/src/lc/Q215KthLargestNumber.java" />
-        <option value="$PROJECT_DIR$/src/lc/Q212WordSearch_Trie.java" />
-        <option value="$PROJECT_DIR$/src/algo/Q210CourseSchedule_TopologicalSort.java" />
-        <option value="$PROJECT_DIR$/src/lc/Q207CourseSchedule.java" />
-        <option value="$PROJECT_DIR$/src/lc/Q204CountPrime.java" />
-        <option value="$PROJECT_DIR$/src/lc/Q206ReverseLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/algo/Q200NumberOfIsland_UnionFind.java" />
-=======
->>>>>>> 153c877e14d22f03a63fb32a50dac9f41608cc40
-        <option value="$PROJECT_DIR$/src/algo/Q200NumOfIsland_BFS.java" />
-        <option value="$PROJECT_DIR$/src/lc/Q179LargestNumber.java" />
-        <option value="$PROJECT_DIR$/src/lc/Q173BinarySearchTreeIterator.java" />
-        <option value="$PROJECT_DIR$/src/lc/Q165CompareVersionNumber.java" />
-        <option value="$PROJECT_DIR$/src/lc/Q159LongestSubstring.java" />
-        <option value="$PROJECT_DIR$/src/lc/Q152MaxProductSubarray.java" />
-        <option value="$PROJECT_DIR$/src/algo/Q150Calculator_ReversePolishNotation.java" />
-        <option value="$PROJECT_DIR$/src/lc/Q149MaxPointsInALine.java" />
-        <option value="$PROJECT_DIR$/src/algo/Q148SortList_MergeSort_DivideConquer.java" />
-        <option value="$PROJECT_DIR$/src/lc/ListNode.java" />
-        <option value="$PROJECT_DIR$/src/lc/Q142LinkedListCycleII.java" />
-        <option value="$PROJECT_DIR$/src/lc/Q139WorkBreakI_Trie_DP.java" />
-        <option value="$PROJECT_DIR$/src/algo/Q140WorkBreakII_Trie_DP.java" />
-        <option value="$PROJECT_DIR$/src/lc/TrieNodeV2.java" />
         <option value="$PROJECT_DIR$/src/algo/Q139WorkBreakI_Trie_DP.java" />
         <option value="$PROJECT_DIR$/src/algo/Q128LongestConsecutiveSequence_UnionFind.java" />
         <option value="$PROJECT_DIR$/src/lc/Q127WordLadder_BFS.java" />
@@ -191,34 +176,30 @@
         <option value="$PROJECT_DIR$/src/lc/fail/Q732MyCalenderIII_SegmentTree_SortedMap.java" />
         <option value="$PROJECT_DIR$/src/algo/ThreeWayQuickSelect.java" />
         <option value="$PROJECT_DIR$/src/lc/Q1032StreamOfCharacters.java" />
-<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/lc/Q394DecodeString.java" />
         <option value="$PROJECT_DIR$/src/lc/Q407TrappingRainWaterII_BFS_SortedMap.java" />
         <option value="$PROJECT_DIR$/src/algo/Q410SplitArrayLargestSum_BinarySearch.java" />
         <option value="$PROJECT_DIR$/src/tictactoe/TicTacToe.java" />
         <option value="$PROJECT_DIR$/src/lc/Q4MediumOfTwoSortedArrays.java" />
-=======
-        <option value="$PROJECT_DIR$/src/algo/Q146LRUCache.java" />
-        <option value="$PROJECT_DIR$/src/lc/Q282ExpressAddOps.java" />
->>>>>>> 153c877e14d22f03a63fb32a50dac9f41608cc40
+        <option value="$PROJECT_DIR$/src/lc/Q273IntegerToEnglishWord.java" />
+        <option value="$PROJECT_DIR$/src/algo/Q269AlienDictionary.java" />
+        <option value="$PROJECT_DIR$/src/lc/Q68TextJustification.java" />
+        <option value="$PROJECT_DIR$/src/lc/Q224BasicCalculator.java" />
+        <option value="$PROJECT_DIR$/src/lc/Q500SubarraySumEquals.java" />
+        <option value="$PROJECT_DIR$/src/algo/Q1057BucketSort.java" />
+        <option value="$PROJECT_DIR$/src/algo/Q1057CampusBikes_BucketSort.java" />
+        <option value="$PROJECT_DIR$/src/lc/Q753CrackingTheSafe.java" />
+        <option value="$PROJECT_DIR$/src/lc/Q684RedundantConnection.java" />
+        <option value="$PROJECT_DIR$/src/lc/Q62UniquePath.java" />
+        <option value="$PROJECT_DIR$/src/lc/Q890FindAndReplacePattern.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-<<<<<<< HEAD
-    <option name="x" value="613" />
-    <option name="y" value="100" />
+    <option name="x" value="825" />
+    <option name="y" value="243" />
     <option name="width" value="2550" />
     <option name="height" value="1791" />
-  </component>
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-=======
-    <option name="x" value="60" />
-    <option name="y" value="69" />
-    <option name="width" value="1400" />
-    <option name="height" value="837" />
->>>>>>> 153c877e14d22f03a63fb32a50dac9f41608cc40
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -228,7 +209,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -239,7 +219,18 @@
             <path>
               <item name="lc" type="b2602c69:ProjectViewProjectNode" />
               <item name="lc" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="algo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lc" type="b2602c69:ProjectViewProjectNode" />
@@ -247,19 +238,31 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lc" type="462c0819:PsiDirectoryNode" />
             </path>
-<<<<<<< HEAD
+            <path>
+              <item name="lc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lc" type="462c0819:PsiDirectoryNode" />
+              <item name="fail" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lc" type="462c0819:PsiDirectoryNode" />
+              <item name="Q843GuessWords.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
             <path>
               <item name="lc" type="b2602c69:ProjectViewProjectNode" />
               <item name="lc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="tictactoe" type="462c0819:PsiDirectoryNode" />
             </path>
-=======
->>>>>>> 153c877e14d22f03a63fb32a50dac9f41608cc40
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -267,7 +270,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564086588983" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564591304640" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -281,7 +284,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TicTacToe">
+  <component name="RunManager" selected="Application.Q224BasicCalculator">
     <configuration name="Q146LRUCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algo.Q146LRUCache" />
       <module name="lc" />
@@ -295,12 +298,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q210CourseSchedule_TopologicalSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algo.Q210CourseSchedule_TopologicalSort" />
+    <configuration name="Q224BasicCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lc.Q224BasicCalculator" />
       <module name="lc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lc.fail.*" />
+          <option name="PATTERN" value="lc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -308,12 +311,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q302" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lc.Q302" />
+    <configuration name="Q273IntegerToEnglishWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lc.Q273IntegerToEnglishWord" />
       <module name="lc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lc.fail.*" />
+          <option name="PATTERN" value="lc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -321,12 +324,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q305" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lc.Q305" />
+    <configuration name="Q4MediumOfTwoSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lc.Q4MediumOfTwoSortedArrays" />
       <module name="lc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lc.fail.*" />
+          <option name="PATTERN" value="lc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -349,11 +352,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q224BasicCalculator" />
+        <item itemvalue="Application.Q273IntegerToEnglishWord" />
+        <item itemvalue="Application.Q4MediumOfTwoSortedArrays" />
         <item itemvalue="Application.TicTacToe" />
         <item itemvalue="Application.Q146LRUCache" />
-        <item itemvalue="Application.Q210CourseSchedule_TopologicalSort" />
-        <item itemvalue="Application.Q305" />
-        <item itemvalue="Application.Q302" />
       </list>
     </recent_temporary>
   </component>
@@ -390,16 +393,10 @@
     <option name="totallyTimeSpent" value="111127000" />
   </component>
   <component name="ToolWindowManager">
-<<<<<<< HEAD
-    <frame x="409" y="67" width="1700" height="1194" extended-state="0" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19451219" />
-=======
-    <frame x="60" y="69" width="1400" height="837" extended-state="0" />
+    <frame x="551" y="163" width="1700" height="1194" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22312224" />
->>>>>>> 153c877e14d22f03a63fb32a50dac9f41608cc40
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19695123" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -408,19 +405,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32862523" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.2590604" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32768363" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.31167608" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-<<<<<<< HEAD
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32956687" />
-=======
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.41879195" />
->>>>>>> 153c877e14d22f03a63fb32a50dac9f41608cc40
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3289166" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32862523" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -464,163 +457,28 @@
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lc/Q4MediumOfTwoSortedArrays.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lc/Q224BasicCalculator.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lc/Q224BasicCalculator.java</url>
+          <line>71</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/algo/Q210CourseSchedule_TopologicalSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="31" column="64" selection-start-line="31" selection-start-column="64" selection-end-line="31" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algo/Q200NumberOfIsland_UnionFind.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="42" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algo/Q200NumOfIsland_BFS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lc/Q179LargestNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="47" column="6" selection-start-line="10" selection-start-column="8" selection-end-line="47" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algo/Q150Polish_MathEvaluation.java" />
-    <entry file="file://$PROJECT_DIR$/src/lc/Q173BinarySearchTreeIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lc/Q165CompareVersionNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lc/Q159LongestSubstring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="31" column="22" selection-start-line="9" selection-start-column="8" selection-end-line="31" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lc/Q152MaxProductSubarray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="50" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-=======
->>>>>>> 153c877e14d22f03a63fb32a50dac9f41608cc40
-    <entry file="file://$PROJECT_DIR$/src/algo/Q150Calculator_ReversePolishNotation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lc/Q149MaxPointsInALine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algo/Q148SortList_MergeSort_DivideConquer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lc/Q142LinkedListCycleII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lc/ListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algo/Q140WorkBreakII_Trie_DP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algo/Q139WorkBreakI_Trie_DP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lc/Q138DeepCopyListWithRandomRef.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lc/Q127WordLadder_BFS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="26" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lc/Q126WordLadderII.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -712,25 +570,11 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/String.java" />
     <entry file="file://$PROJECT_DIR$/src/lc/Q350IntersectionTwoArrays.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" column="75" selection-start-line="12" selection-start-column="75" selection-end-line="12" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algo/Q352SummaryRange_SortedMap.java">
-=======
-    <entry file="file://$PROJECT_DIR$/src/lc/Q350IntersectionTwoArrays.java">
->>>>>>> 153c877e14d22f03a63fb32a50dac9f41608cc40
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1053">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -778,13 +622,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algo/Q315_BIT_DC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lc/Q388LongestAbsoluteFileAdd.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -827,11 +664,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lc/Q378KthSmallValue.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
         <state relative-caret-position="351">
-=======
-        <state relative-caret-position="195">
->>>>>>> 153c877e14d22f03a63fb32a50dac9f41608cc40
           <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -841,76 +674,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lc/TrieNode.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
         <state relative-caret-position="648">
           <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-=======
-        <state relative-caret-position="75">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lc/Q207CourseSchedule.java" />
-    <entry file="file://$PROJECT_DIR$/src/lc/Q843GuessWords.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-            <element signature="e#742#743#0" expanded="true" />
->>>>>>> 153c877e14d22f03a63fb32a50dac9f41608cc40
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lc/Q642DesignSearchAutoSystem.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
         <state relative-caret-position="567">
           <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-=======
-        <state relative-caret-position="1620">
-          <caret line="109" column="5" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lc/Q76MinimumWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="47" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algo/Q207CourseSchedule_TopologicalSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="1834" column="18" selection-start-line="1834" selection-start-column="18" selection-end-line="1834" selection-end-column="18" />
->>>>>>> 153c877e14d22f03a63fb32a50dac9f41608cc40
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lc/Q1048LongestStringChain.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
         <state relative-caret-position="918">
           <caret line="34" selection-start-line="34" selection-end-line="34" />
         </state>
@@ -920,79 +700,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
           <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
-=======
-        <state relative-caret-position="90">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lc/Q973KClosestPointsToOrigin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lc/Q386LexicographicalNumberSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="24" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algo/Q210CourseSchedule_TopologicalSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lc/Q92ReverseLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lc/Q1032StreamOfCharacters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          <folding>
-            <element signature="e#180#181#0" expanded="true" />
-            <element signature="e#212#213#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lc/Q1000MinCostToMergeStone_DP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lc/Q10RegularExpressionMatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lc/fail/Q732MyCalenderIII_SegmentTree_SortedMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
->>>>>>> 153c877e14d22f03a63fb32a50dac9f41608cc40
         </state>
       </provider>
     </entry>
@@ -1007,7 +714,6 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/lc/ttt.java" />
     <entry file="file://$PROJECT_DIR$/src/algo/Q410SplitArrayLargestSum_BinarySearch.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1017,38 +723,151 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lc/fail/Q732MyCalenderIII_SegmentTree_SortedMap.java" />
-    <entry file="file://$PROJECT_DIR$/src/lc/Q92ReverseLinkedList.java" />
     <entry file="file://$PROJECT_DIR$/src/algo/ThreeWayQuickSelect.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="2149" column="18" selection-start-line="2149" selection-start-column="18" selection-end-line="2149" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/tictactoe/TicTacToe.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
+        <state relative-caret-position="1782">
           <caret line="68" selection-start-line="68" selection-end-line="68" />
-=======
-    <entry file="file://$PROJECT_DIR$/src/algo/Q146LRUCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="76" column="29" selection-start-line="76" selection-start-column="29" selection-end-line="76" selection-end-column="29" />
->>>>>>> 153c877e14d22f03a63fb32a50dac9f41608cc40
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/lc/Q4MediumOfTwoSortedArrays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-=======
-    <entry file="file://$PROJECT_DIR$/src/lc/Q282ExpressAddOps.java">
+        <state relative-caret-position="1080">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lc/Q273IntegerToEnglishWord.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        <state relative-caret-position="3375">
+          <caret line="126" selection-start-line="126" selection-end-line="126" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
->>>>>>> 153c877e14d22f03a63fb32a50dac9f41608cc40
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algo/Q269AlienDictionary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lc/Q68TextJustification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1134">
+          <caret line="44" column="71" selection-start-line="44" selection-start-column="71" selection-end-line="44" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/lang/NumberFormatException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lc/Q92ReverseLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lc/Q224BasicCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="771">
+          <caret line="83" column="5" selection-start-line="14" selection-start-column="8" selection-end-line="83" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lc/Q10RegularExpressionMatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-297">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lc/Q500SubarraySumEquals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lc/Q753CrackingTheSafe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algo/Q1057CampusBikes_BucketSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lc/Q684RedundantConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lc/Q62UniquePath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lc/Q843GuessWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lc/Q890FindAndReplacePattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algo/Q315_BIT_DC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="35" column="38" lean-forward="true" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
         </state>
       </provider>
     </entry>

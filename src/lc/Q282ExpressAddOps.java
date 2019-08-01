@@ -1,12 +1,13 @@
 package lc;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
 public class Q282ExpressAddOps {
 
     public List<String> addOperators(String num, int target) {
-
+        return new ArrayList<>();
     }
 
     public void dfs (String num, int target, Set<String> res, Set<String> tried, char lastOp, long lastRes, long lastNum) {
@@ -23,9 +24,9 @@ public class Q282ExpressAddOps {
     public int plus(char lastOps, char newOps, int lastRes, int lastNum) {
 
         if (newOps == '+' || newOps == '-') {
-            lastRes =
+            lastRes = 0;
         }
-
+        return 0;
     }
 
 }

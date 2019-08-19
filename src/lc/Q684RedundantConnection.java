@@ -2,6 +2,9 @@ package lc;
 
 import java.util.stream.IntStream;
 
+/**
+ * Union find
+ */
 public class Q684RedundantConnection {
 
     public int[] findRedundantConnection(int[][] edges) {

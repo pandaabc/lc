@@ -1,8 +1,6 @@
 package lc;
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.Random;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class Q843GuessWords {
@@ -12,13 +10,25 @@ public class Q843GuessWords {
         int cnt = 0;
         int guess = 0;
         while (cnt != 6 && guess < 10) {
-            String g = list.get(getRandomIdx(list.size()));
+            String g = findNextWord(list);
             cnt = master.guess(g);
             int cntf = cnt;
             list = list.stream().filter(e -> findMatch(g, e) != cntf).collect(Collectors.toList());
             guess++;
         }
 
+    }
+
+    private String findNextWord(List<String> words) {
+        Map<String, Integer> wordCounts = new HashMap<>();
+        for (int i = 0; i < words.size(); i ++) {
+            for (int j = i + 1; j < words.size(); j ++) {
+                int cnt = findMatch(words.get(i), words.get(j));
+                wordCounts.compute(words.get(i), (k, v) -> v == null ? cnt : v + cnt);
+                wordCounts.compute(words.get(j), (k, v) -> v == null ? cnt : v + cnt);
+            }
+        }
+        return wordCounts.entrySet().stream().min(Comparator.comparing(Map.Entry::getValue)).map(Map.Entry::getKey).orElse(null);
     }
 
     private int getRandomIdx(int size) {

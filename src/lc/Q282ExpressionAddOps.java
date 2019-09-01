@@ -4,81 +4,89 @@ import java.util.*;
 
 public class Q282ExpressionAddOps {
     class Solution {
-        Set<String> ops = new HashSet<>();
         public List<String> addOperators(String num, int target) {
             if (num == null || num.length() == 0) {
                 return new ArrayList<>();
             }
-            List<String> result = new ArrayList<>();
-            addOps(num, result, target, "");
-            return result;
+            List<String> eqns = new ArrayList<>();
+            tryOps(num, "", new ArrayDeque<>(), new ArrayDeque<>(), target, eqns);
+            return eqns;
         }
 
-        private void addOps(String num, List<String> res, int target, String prefix) {
-            //System.out.println(prefix);
-            if (num.isEmpty() && evaluate(prefix, target)) {
-                res.add(prefix);
+        private void tryOps(String num, String prefix, Deque<Integer> nums, Deque<Character> ops, int target, List<String> eqns) {
+            
+            if (num.isEmpty()) {
+                if (!nums.isEmpty()) {
+                    if (nums.size() == 1 && nums.poll() ==  target) {
+                        eqns.add(prefix);
+                    }
+                    if (nums.size() > 1 && doOp(nums.pollFirst(), nums.pollFirst(), ops.pollFirst()) == target) {
+                        eqns.add(prefix);
+                    }
+                }
+
                 return;
             }
 
-            for (int i = 0; i < num.length(); i ++) {
-                long number = Long.parseLong(num.substring(0, i + 1));
-                if (num.charAt(0) == '0' && i > 0) {
-                    return;
+            for (int i = 1; i <= num.length() && i < 11; i ++) {
+                long n0 = Long.parseLong(num.substring(0, i));
+                if (n0 > Integer.MAX_VALUE || String.valueOf(n0).length() < i) {
+                    break;
                 }
-                if (prefix.length() > 0) {
-                    for (String op : getOps()) {
-                        addOps(num.substring(i + 1), res, target, prefix + op + number);
+                int n = (int) n0;
+                for (int j = 0; j < 3; j ++) {
+                    Deque<Integer> nums1 = new ArrayDeque<>(nums);
+                    Deque<Character> ops1 = new ArrayDeque<>(ops);
+                    if (j == 0) {
+                        addNumberAndOps(nums1, ops1, n, j);
+                        tryOps(num.substring(i), prefix.isEmpty() ? prefix + n : prefix + "+"+n, nums1, ops1, target, eqns);
+                        if (prefix.isEmpty()) {
+                            break;
+                        }
+                    } else if (j == 1) {
+                        addNumberAndOps(nums1, ops1, n, j);
+                        tryOps(num.substring(i), prefix.isEmpty() ? prefix + n : prefix + "-"+n, nums1, ops1, target, eqns);
+                    } else {
+                        addNumberAndOps(nums1, ops1, n, j);
+                        tryOps(num.substring(i), prefix.isEmpty() ? prefix + n : prefix + "*"+n, nums1, ops1, target, eqns);
                     }
-                } else {
-                    addOps(num.substring(i + 1), res, target, prefix + number);
                 }
             }
-
         }
 
-        private boolean evaluate (String prefix, int target) {
-
-            Stack<String> stack = new Stack<>();
-            int p0 = prefix.length();
-            for (int i = prefix.length() - 1; i >= 0; i --) {
-                if (i == 0) {
-                    stack.push(prefix.substring(i, p0));
-                } else if (prefix.charAt(i) < '0' || prefix.charAt(i) > '9') {
-                    stack.push(prefix.substring(i + 1, p0));
-                    stack.push(prefix.substring(i, i + 1));
-                    p0 = i;
-                }
+        private void addNumberAndOps(Deque<Integer> nums, Deque<Character> ops, int n, int opNum) {
+            if (nums.size() < 1) {
+                nums.offerLast(n);
+                return;
             }
-            //System.out.println(prefix);
-            //System.out.println(stack);
-            while (stack.size() > 1) {
-                long num1 = Long.parseLong(stack.pop());
-                String op = stack.pop();
-                long num2 = Long.parseLong(stack.pop());
-                if (op.equals("*")) {
-                    stack.push(String.valueOf(num1 * num2));
-                } else if (!stack.isEmpty() && "*".equals(stack.peek())) {
-                    stack.pop();
-                    stack.push(String.valueOf(num2 * Long.parseLong(stack.pop())));
-                    stack.push(op);
-                    stack.push(String.valueOf(num1));
-                } else if (op.equals("+")) {
-                    stack.push(String.valueOf(num1 + num2));
-                } else {
-                    stack.push(String.valueOf(num1 - num2));
-                }
+            if (nums.size() < 2) {
+                nums.offerLast(n);
+                ops.offerLast(opNum == 0 ? '+' : opNum == 1 ? '-' : '*');
+                return;
             }
-            return Long.parseLong(stack.pop()) == target;
+            if (opNum == 0) {
+                nums.offerFirst(doOp(nums.pollFirst(), nums.pollFirst(), ops.pollFirst()));
+                ops.offerLast('+');
+                nums.offerLast(n);
+            } else if (opNum == 1) {
+                nums.offerFirst(doOp(nums.pollFirst(), nums.pollFirst(), ops.pollFirst()));
+                ops.offerLast('-');
+                nums.offerLast(n);
+            } else {
+                nums.offerLast(doOp(nums.pollLast(), n, '*'));
+            }
         }
 
-        private Set<String> getOps() {
-            if (ops.isEmpty()) {
-                ops.add("+");
-                ops.add("-");
-                ops.add("*");
+
+        private int doOp(int num1, int num2, char op) {
+            if (op == '+') {
+                return num1 + num2;
             }
-            return ops;
+            if (op == '-') {
+                return num1 - num2;
+            }
+            return num1 * num2;
         }
+
     }
 }

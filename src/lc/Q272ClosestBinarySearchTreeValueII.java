@@ -20,7 +20,7 @@ public class Q272ClosestBinarySearchTreeValueII {
             TreeNode cur = getNode(largers, smallers, target);
             res.add(cur.val);
             tried.add(cur);
-            addMoreNodes(largers, smallers, target, cur, tried);
+            //addMoreNodes(largers, smallers, target, cur, tried);
         }
 
         return res;
